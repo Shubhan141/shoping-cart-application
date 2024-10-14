@@ -4,7 +4,7 @@ import Items from "./components/Items";
 import Navbar from "./components/Navbar";
 // import TotalItemContent here
 import {TotalItemContent} from './components/totalContext.js'
-
+// hihihihihi
 function App() {
   return (
     <TotalItemContent>
