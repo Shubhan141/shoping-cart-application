@@ -1,0 +1,89 @@
+
+
+.cartContainer{
+    border: 4px solid rgb(49, 196, 120);
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px px rgb(218, 19, 19);
+    position: fixed;
+    width: 70%;
+    height: auto;
+    /* background:linear-gradient(to left, rgb(160, 13, 153), rgb(13, 0, 255)); */
+    background-color: rgb(203, 203, 191);
+    top: 200px;
+    text-align: center;
+    z-index: 10;
+    padding: 10px 10px;
+    
+}
+.cartContainer li{
+    margin-top: 5px;
+    box-sizing: border-box;
+    border:2px solid transparent;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    list-style-type :none;
+}
+.cartContainer li:hover{
+    border: 2px solid rgb(16, 231, 209);
+    transition:all 0.3s ease 0.1s ;
+    background-color: azure;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+/* .clearBtn{
+    border: 2px solid red;
+} */
+.closeBtn,.clearBtn{
+    border: 2px solid transparent;
+    background-color: rgb(9, 22, 17);
+    color: white;
+    border-radius: 10px;
+    /* font-size: 20px; */
+    padding: 4px 5px;
+    cursor: pointer;
+}
+.clearBtn:hover{
+    box-shadow: 0px 2px 1px 2px white;
+}
+.closeBtn:hover{
+    box-shadow: 0px 2px 1px 2px white;
+}
+.cartbtn{
+    border: 2px solid rgb(30, 45, 67);
+    background-color: rgb(60, 38, 110);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 0.5rem;
+
+}
+.cartbtn:hover{
+    box-shadow: 0px 0px 5px 1px rgb(56, 17, 122);
+}
+.liItems{
+    display: flex;
+    justify-content: space-around;
+    padding:  1rem 4rem;
+}
+.total{
+    background-color: #11A321;
+    margin: 0;
+    padding: 20px 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+.payBtn{
+      color: white;
+      background-color: blueviolet;
+      font-weight: bold;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 20px;
+      
+}
+.payBtn:hover{
+   box-shadow: 0px 0px 2px 1px rgb(255, 255, 255);
+}
